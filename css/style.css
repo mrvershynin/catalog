@@ -1,0 +1,22 @@
+body {
+	margin: 18px 29px;
+}
+h1 {
+	font-family: "Tahoma";
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.main div {
+	border: 1px solid #c0c0c0;
+	float: left;
+	width: 245px;
+}
+h2 {
+	font-family: "Tahoma";
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #72767a;
+	text-align: center;
+	padding: 26px 0;
+}
