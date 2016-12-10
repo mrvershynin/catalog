@@ -1,22 +1,135 @@
 body {
-	margin: 18px 29px;
+	line-height: 1;
 }
-h1 {
+h1, h2, h3, a {
+	margin: 0;
 	font-family: "Tahoma";
 	text-transform: uppercase;
-	text-align: center;
+	font-weight: normal;
 }
-
+h1 {
+	font-weight: normal;
+	font-size: 28px;
+	margin-top: 15px;
+	margin-left: 252px;
+}
+.main {
+	margin-top: 60px;
+	margin-left: 22px;
+}
+.main div:nth-child(odd){
+	border-right: none;
+}
+.main div:nth-child(3){
+	border-left: none;
+}
 .main div {
 	border: 1px solid #c0c0c0;
 	float: left;
-	width: 245px;
+	width: 243px;
+	text-align: center;
+	position: relative;
 }
 h2 {
-	font-family: "Tahoma";
 	font-size: 18px;
-	text-transform: uppercase;
 	color: #72767a;
 	text-align: center;
-	padding: 26px 0;
+	margin-top: 45px;
+	margin-bottom: 32px;
+}
+img {
+	height: 137px;
+	margin-top: 21px;
+}
+.blue_name {
+	margin-top: 30px;
+	color: #009be1;
+	padding: 0;
+	margin-bottom: 28px;
+}
+hr {
+	size: 1px;
+	color: #d3d3d3;
+	margin: 0 20px 0 20px;
+	border-bottom: none;
+}
+span {
+	font-size: 18px;
+	font-weight: bold;
+}
+.currency {
+	font-size: 14px;
+	font-weight: normal;
+}
+.price_old {
+	font-size: 11px;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+button {
+	border: none;
+	font-size: 12px;
+	height: 40px;
+	width: 140px;
+	text-transform: uppercase;
+	background-color: #f0e524;
+	margin-bottom: 35px;
+	margin-top: 28px;
+	font-weight: bold;
+}
+.pink {
+	background-color: #cc3399;
+	color: #fff;
+	margin-top: 46px;
+	font-weight: normal;
+}
+.btn_prev {
+	color: #c0c0c0;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #c0c0c0;
+	padding: 6px 9px;
+	border-radius: 50%;
+	font-size: 21px;
+	background-color: #fff;
+	position: absolute;
+	top: 75px;
+	left: -17px;
+}
+ .btn_next {
+	color: #c0c0c0;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #c0c0c0;
+	padding: 6px 9px;
+	border-radius: 50%;
+	font-size: 21px;
+	background-color: #fff;
+	position: absolute;
+	top: 75px;
+	right: -17px;
+}
+.new_offer {
+	color: #fff;
+	text-decoration: none;
+	background-color: #86b022;
+	font-size: 12px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	padding: 27px 6px;
+	position: absolute;
+	top: -32px;
+	right: 8px;
+}
+.best_sell {
+	color: #fff;
+	text-decoration: none;
+	background-color: #009de1;
+	font-size: 12px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	padding: 21px 8px;
+	position: absolute;
+	top: -32px;
+	right: 8px;
 }
